@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: e-commerce-backend
+  description: Backend API for e-commerce platform
+
+  annotations:
+    github.com/project-slug: rajudruva2/e-commerce-backend
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/rajudruva2
